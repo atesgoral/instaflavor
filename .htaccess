@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wp-content/plugins/instaflavor/cache
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /wp-content/plugins/instaflavor/generate.php [L]
+</IfModule>

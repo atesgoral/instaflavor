@@ -1,0 +1,41 @@
+.instaflavor_play {
+    background: 50% 50% no-repeat;
+    display: inline-block;
+}
+
+.instaflavor_play span {
+    background: url(play_overlay.png);
+    display: inline-block;
+    width: 130px;
+    height: 97px;
+}
+
+.instaflavor_play:hover span {
+    background-position: 2px;
+}
+
+.instaflavor_desc {
+    margin-bottom: 0.5em;
+}
+
+div.instaflavor_overlay {
+    background: url(white.png) no-repeat;
+    padding: 40px;
+    width: 576px;  
+    display: none;
+}
+
+div.instaflavor_overlay div.close {
+    background: url(close.png) no-repeat;
+    position: absolute;
+    top: 2px;
+    right: 5px; 
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+a.instaflavor_player {
+    display: block;
+    height: 450px;
+}
